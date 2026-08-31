@@ -30,6 +30,8 @@ SCRFD (Sample-based Corner Representation Face Detection)
 ArcFace (ResNet-50)
 512次元の顔埋め込みベクトル（Embedding）を抽出するコアモデル
 
+※ ResNet-50は、50層の深さを持つ画像認識・分類用の畳み込みニューラルネットワーク（CNN）
+
 ---
 
 ## SCRFD 
@@ -130,6 +132,7 @@ $\mu_l,\sigma_l$ は学習済みBN層の平均と標準偏差、$\tilde{\mu}_l,\
 ---
 
 # 実演
+https://face-recognition-6pdpp4swvnfyxerua6buvl.streamlit.app/
 
 ---
 
